@@ -1,0 +1,46 @@
+.screen-header {
+  padding: 45px 25px 35px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: flxed;
+}
+
+.header__title {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.header__icons > span {
+  margin-left: 30px;
+}
+
+@keyframes iconShake {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.header__icons i:hover {
+  animation: iconShake 0.5s linear infinite;
+}
+
+@keyframes rotateCog {
+  form {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.header__icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
+}

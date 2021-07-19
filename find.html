@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="header__title">Find</h1>
+      <div class="header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span>
+          <a class="status-bar__settings" href="settings.html">
+            <i class="fas fa-cog fa-lg"></i>
+          </a>
+          <div class="find__red-dot"></div>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__each">
+          <i class="fas fa-qrcode fa-lg"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__each">
+          <i class="far fa-address-book fa-lg"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__each">
+          <i class="fas fa-fish fa-lg"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__each">
+          <i class="far fa-envelope fa-lg"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="find-recommend">
+        <span class="find-recommend__title">Recommended Friends</span>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="find-openchat">
+        <div class="find-openchat__title">
+          <span>Open Chat</span>
+          <div class="find-openchat__title__link">
+            <span>Go to Openchat Home</span>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="find-openchat__main">
+          <div class="find-openchat__main__text">
+            <span class="find-openchat__main__text--title">#BTS</span>
+            <span>#bts#army#friends</span>
+            <div class="find-openchat__main__text--member">
+              <img
+                class="find-openchat__main__userimg"
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+              />
+              <span>802 members |</span>
+              <span>Active</span>
+            </div>
+          </div>
+          <div class="find-openchat__main__mainimg">
+            <img
+              src="https://kpophit.com/wp-content/uploads/2020/10/BTS-might-be-able-to-defer-their-military-enlistment-according.jpg"
+            />
+            <div>
+              <i class="fas fa-heart"></i>
+              <span>326</span>
+            </div>
+          </div>
+        </div>
+        <div class="find-openchat__main">
+          <div class="find-openchat__main__text">
+            <span class="find-openchat__main__text--title">#BTS</span>
+            <span>#bts#army#friends</span>
+            <div class="find-openchat__main__text--member">
+              <img
+                class="find-openchat__main__userimg"
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+              />
+              <span>802 members |</span>
+              <span>Active</span>
+            </div>
+          </div>
+          <div class="find-openchat__main__mainimg">
+            <img
+              src="https://kpophit.com/wp-content/uploads/2020/10/BTS-might-be-able-to-defer-their-military-enlistment-according.jpg"
+            />
+            <div>
+              <i class="fas fa-heart"></i>
+              <span>326</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification notification-badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+            <div class="nav__red-dot"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big! :(</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7e112ad908.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

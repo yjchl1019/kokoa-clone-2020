@@ -1,0 +1,21 @@
+.more__red-dot {
+  background-color: tomato;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  position: relative;
+  left: 163px;
+  bottom: 25px;
+}
+
+.more-screen .icon-row {
+  margin: 37px 0;
+}
+
+.more-suggestions {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: var(--border-line);
+  display: flex;
+  flex-direction: column;
+}

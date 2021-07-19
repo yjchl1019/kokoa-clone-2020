@@ -1,0 +1,45 @@
+.icon-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.9;
+}
+
+.icon-row__each {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 15px;
+  transition: color 1s;
+}
+
+.icon-row__each:hover {
+  color: var(--kokoayellow);
+}
+
+.icon-row__each > i {
+  font-size: 30px;
+}
+.icon-row__each > span {
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+@keyframes iconShake {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.icon-row__each i:hover {
+  animation: iconShake 0.5s linear infinite;
+}

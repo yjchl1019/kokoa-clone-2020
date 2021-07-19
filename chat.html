@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Yejin - Kokoa Clone</title>
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-screen-header">
+      <div class="alt-screen-header__icons">
+        <a href="chats.html">
+          <i class="fas fa-chevron-left fa-lg"></i>
+        </a>
+      </div>
+      <div class="alt-screen-header__title">
+        <h1>Yejin</h1>
+      </div>
+      <div class="alt-screen-header__icons chat-header__last-icon">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat-time-stamp">Thuesday, June 30, 2020</div>
+
+      <div class="msg-row">
+        <img
+          src="https://pbs.twimg.com/profile_images/1011425402751860736/SB7v3wK-.jpg"
+          class="msg-row__img"
+        />
+        <div class="msg-row__content">
+          <div class="msg__name">Yejin</div>
+          <div class="msg__info">
+            <span class="msg__bubble">Hi!</span>
+            <span class="msg__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="msg-row msg-row--own">
+        <div class="msg-row__content">
+          <div class="msg__info">
+            <span class="msg__time">21:28</span>
+            <span class="msg__bubble">Hi! Nice to meet you!</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write your message..." />
+        <i class="far fa-smile fa-lg"></i>
+        <button><i class="fas fa-arrow-up fa-lg"></i></button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big! :(</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7e112ad908.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

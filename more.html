@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="header__title">More</h1>
+      <div class="header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span>
+          <a class="status-bar__settings" href="settings.html">
+            <i class="fas fa-cog fa-lg"></i>
+          </a>
+          <div class="more__red-dot"></div>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://pbs.twimg.com/profile_images/1011425402751860736/SB7v3wK-.jpg"
+            class="user-component__avatar user-component__avatar--m"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Yejin</h4>
+            <h6 class="user-component__subtitle">
+              +82 10-1234-5678 <span>!</span>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column--icon">
+          <i class="fas fa-dog fa-lg"></i>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__each">
+          <i class="far fa-calendar fa-lg"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__each">
+          <i class="fas fa-archive fa-lg"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__each">
+          <i class="far fa-laugh-squint fa-lg"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__each">
+          <i class="fas fa-paint-roller fa-lg"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+      <div class="icon-row icon-row__second">
+        <div class="icon-row__each">
+          <i class="fas fa-kiwi-bird fa-lg"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-row__each">
+          <i class="far fa-comments fa-lg"></i>
+          <span>Openchat</span>
+        </div>
+        <div class="icon-row__each">
+          <span></span>
+        </div>
+        <div class="icon-row__each">
+          <span></span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <span class="more-suggestions__title">Suggestions</span>
+        <div class="icon-row icon-row__suggestion">
+          <div class="icon-row__each">
+            <i class="fab fa-earlybirds fa-lg"></i>
+            <span>Kokoa Story</span>
+          </div>
+          <div class="icon-row__each">
+            <i class="fas fa-feather-alt fa-lg"></i>
+            <span>Kokoa friends</span>
+          </div>
+          <div class="icon-row__each">
+            <i class="fas fa-ghost fa-lg"></i>
+            <span>Friends Gem</span>
+          </div>
+          <div class="icon-row__each">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification notification-badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+            <div class="nav__red-dot"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big! :(</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7e112ad908.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
